@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.national_flag{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+
+.flag {
+  background-color: #006747;
+  height: 300px;
+  width: 500px;
+  position: relative;
+}
+.circle {
+  background-color: #da291c;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
